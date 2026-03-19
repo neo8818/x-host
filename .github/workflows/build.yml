@@ -74,6 +74,6 @@ jobs:
           tagName: v__VERSION__
           releaseName: x-hosts v__VERSION__
           releaseBody: Automated build created by GitHub Actions.
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.tauriArgs }}
